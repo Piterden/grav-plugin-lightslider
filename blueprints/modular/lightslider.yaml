@@ -23,6 +23,12 @@ form:
           type: tab
           title: Slides
           fields:
+
+            parse:
+              type: display
+              size: 'large button-bar danger'
+              content: '<button class="button parse"><i class="fa fa-fw fa-warning"></i> Parse media</button><span> Warning! This will remove all slides!</span>'
+
             header.slides:
               name: slides
               type: list
